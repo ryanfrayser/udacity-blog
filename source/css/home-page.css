@@ -1,0 +1,17 @@
+#featured-post {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#card {
+    display:flex;
+    justify-content: center;
+
+    }
+
+#card img {
+
+    /* object-fit:contain; */
+    width: 300px;
+    height: 300px;
+}

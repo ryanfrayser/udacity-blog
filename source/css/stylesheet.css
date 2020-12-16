@@ -1,0 +1,36 @@
+/* IMPORT STYLE SHEETS */
+@import "home-page.css";
+@import "blog-post.css";
+@import "subscribe.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital@0;1&display=swap');
+
+/* MAIN LAYOUT */
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10vw;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #494848;
+}
+
+nav{
+
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color:
+}
+
+
