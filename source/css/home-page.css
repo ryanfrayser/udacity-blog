@@ -1,16 +1,30 @@
 #featured-post {
     display: grid;
-    grid-template-columns: 1fr;
+    margin: 2em;
+    grid-auto-flow: auto;
+    /* grid-template-columns: 1fr; */
+    justify-items: center;
+    grid-gap: 2em;
+
 }
 
-#card {
+article {
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    width: 300px;
     }
 
-#card img {
 
+#card img {
     object-fit: cover;
     width: 300px;
     height: 300px;
 }
+
+#card h5 {
+    margin: 0;
+}
+#card h2 {
+    margin: 1em 0 0 0;
+}
+
