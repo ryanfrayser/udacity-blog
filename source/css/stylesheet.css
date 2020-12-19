@@ -11,36 +11,7 @@ body {
     background-color: #fdfbfb;
 }
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    color: #474747;
-    font-weight:400;
-}
-
-h2 {
-    font-family: 'Playfair Display', serif;
-    color: #474747;
-    font-weight:400;
-
-}
-
-h3{
-    font-family: 'Playfair Display', serif;
-    color: #474747;
-    font-weight:400;
-}
-
-h4{
-    font-family: 'Playfair Display', serif;
-    color: #474747;
-    font-weight:400;
-}
-h5{
-    font-family: 'Playfair Display', serif;
-    color: #474747;
-    font-weight:400;
-}
-h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
     color: #474747;
     font-weight:400;
@@ -51,27 +22,33 @@ p {
     color: #474747;
 }
 
+button:focus {
+    outline: none;
+}
+button:hover {
+    filter: brightness(110%);
+}
+
 
 
 /* Header */
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
     align-items: center;
-    margin: 2em auto;
+    margin: 3em 0 1em 0;
 }
 
-nav a {
-    display: inline-block;
+nav > a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    color: #585858;
+    color: #474747;
     font-weight: 300;
     font-size: 16px;
     letter-spacing: .025rem;
-    margin: 0 1em;
+    margin: 1em 1em;
 
 }
 
@@ -80,3 +57,13 @@ hr {
     opacity: 0.5;
 }
 
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    /* background-color: #47474728; */
+
+    font-style: italic;
+
+}
