@@ -1,0 +1,30 @@
+/* EMAIL SUBSCRIBE STYLES */
+
+form {
+    margin: 10em 0;
+    display: flex;
+    justify-content: center;
+}
+
+form > #email {
+    border-radius: 20px;
+    border: solid 1px #7e7e7e;
+    padding: 0.5em 0.75em;
+    font: 1em 'Open Sans', sans-serif;
+    font-style: italic;
+    background-color: #fafafa;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+}
+
+form > button {
+    margin-left: 1em;
+    font: 1em 'Open Sans', sans-serif;
+    font-weight: 100;
+    color:#474747;
+    background-color: #cecece;
+    border-radius: 20px;
+    border-color: #cfcfcf;
+    border-width: 1px;
+    padding: .25em 0.75em;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+}
