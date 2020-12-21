@@ -1,7 +1,7 @@
 
 .blog-content{
     display: grid;
-    grid-template-columns: minmax(40ch, 65ch);
+    grid-template-columns: minmax(40ch, 100ch);
     align-items: center;
     justify-content: center;
     margin: 1em 10%;
