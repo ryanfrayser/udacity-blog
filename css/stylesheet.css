@@ -29,7 +29,16 @@ button:hover {
     filter: brightness(110%);
 }
 
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+i.fab {
+    padding: 8px;
+    color:#474747;
+}
 
 /* Header */
 
@@ -62,8 +71,6 @@ hr {
 footer {
     display: flex;
     justify-content: center;
-    /* background-color: #47474728; */
-
     font-style: italic;
-
+    margin-top: 5em;
 }
